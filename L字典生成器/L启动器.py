@@ -25,6 +25,6 @@ print('———————————/n'
       '———————————')
 A = int(input('请输入'))
 if A ==1:
-      os.system('python main.py')
+      os.system('python L-1.py')
 if A == 2:
       os.system('python L-2.py')
