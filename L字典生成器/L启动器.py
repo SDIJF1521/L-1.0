@@ -23,7 +23,7 @@ print('———————————\n'
       '1.纯数字生成\n'
       '2.普通生成\n'
       '———————————')
-A = int(input('请输入'))
+A = int(input('请输入：'))
 if A ==1:
       os.system('python L-1.py')
 if A == 2:
