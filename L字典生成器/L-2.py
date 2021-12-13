@@ -3,10 +3,10 @@ file = input('请定义文件名称：')
 while len(file)==False:
     print('文件名称不能为空！')
     file = input('请定义文件名称：')
-character = input('请书入生成密码所需要的字符：')
+character = input('请输入生成密码所需要的字符：')
 while len(character) == False:
     print('生成密码所需要的字符不能为空！')
-    character = input('请书入生成密码所需要的字符：')
+    character = input('请输入生成密码所需要的字符：')
 Minimum_length = int(input('请输入最小密码长度：'))
 while Minimum_length <= 0 :
     print('密码长度不能小于1')
