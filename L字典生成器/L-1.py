@@ -31,6 +31,6 @@ for i in range(number1,number2,step):     #生成原始密码
         CD = CD-1
     ZD.extend(mima1)              #生成密码
     Y = ''.join(ZD)               #去除多余符号
-    print(ZD)
+    print(Y)
     file.write(Y)  # 写入密码      #存入字典文件
     file.write("\r")
