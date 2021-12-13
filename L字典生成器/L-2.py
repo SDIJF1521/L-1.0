@@ -8,8 +8,8 @@ while len(character) == False:
     print('生成密码所需要的字符不能为空！')
     character = input('请书入生成密码所需要的字符：')
 Minimum_length = int(input('请输入最小密码长度：'))
-while Minimum_length < 0 :
-    print('密码长度不能小于0')
+while Minimum_length <= 0 :
+    print('密码长度不能小于1')
     Minimum_length = int(input('请输入密码长度：'))
 Maximum_length=int(input('请输入最大密码长度'))
 while Maximum_length<Minimum_length:
