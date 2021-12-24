@@ -1,5 +1,5 @@
 文件 = input("请定义文件名称：")
-while 文件 == False:
+while len(文件) == False:
     print('文件名称不能为空')
     文件 = input("请定义文件名称：")
 number1 = input('请输入最小密码数值：')
