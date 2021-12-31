@@ -10,11 +10,11 @@ while len(character) == False:
 Minimum_length = int(input('请输入最小密码长度：'))
 while Minimum_length <= 0 :
     print('密码长度不能小于1')
-    Minimum_length = int(input('请输入密码长度：'))
-Maximum_length=int(input('请输入最大密码长度'))
+    Minimum_length = int(input('请输入最小密码长度：'))
+Maximum_length=int(input('请输入最大密码长度：'))
 while Maximum_length<Minimum_length:
     print('最大密码长度不能小于最小密码长度！')
-    Maximum_length=int(input('请输入最大密码长度'))
+    Maximum_length=int(input('请输入最大密码长度：'))
 file1 = open(file, 'w')
 #生成python字典
 list1 = list(character)
